@@ -1,0 +1,46 @@
+.main {
+  padding: 1rem;
+
+  .detail-board {
+    padding: 0.7rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px 1px rgba(0,0,0,.2);
+
+    .classification {
+      display: flex;
+      margin-bottom: 0.5rem;
+
+      .name {
+        width: 5rem;
+        white-space: nowrap;
+      }
+
+      .description {
+        min-width: 7rem;
+      }
+
+      .unit-price {
+        min-width: 5rem;
+      }
+
+      .num-people {
+        min-width: 3rem;
+      }
+    }
+  }
+
+  .summary {
+    color: white;
+    display: inline-flex;
+    padding: 0.5rem 1rem;
+    background: #17a2c1;
+    border-radius: 5px;
+
+    .party, .total-amount {
+      width: 6rem;
+    }
+  }
+}
