@@ -36,8 +36,12 @@
     color: white;
     display: inline-flex;
     padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
     background: #17a2c1;
     border-radius: 5px;
+    &.warn {
+      background: #e43333;
+    }
 
     .party, .total-amount {
       width: 6rem;

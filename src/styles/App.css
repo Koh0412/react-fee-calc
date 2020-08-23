@@ -42,8 +42,13 @@
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
   background: #17a2c1;
   border-radius: 5px;
+}
+
+.main .summary.warn {
+  background: #e43333;
 }
 
 .main .summary .party, .main .summary .total-amount {
