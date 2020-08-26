@@ -1,12 +1,16 @@
 import React from 'react';
 import '../styles/App.css';
 import FeeCalcurator from './FeeCalculator';
+import Header from './Header';
 
 function App() {
   return (
-    <div className="main">
-      <FeeCalcurator />
-    </div>
+    <>
+      <Header />
+      <main className="container">
+        <FeeCalcurator />
+      </main>
+    </>
   );
 }
 

@@ -1,8 +1,8 @@
-.main {
+.container {
   padding: 1rem;
 }
 
-.main .detail-board {
+.container .detail-board {
   padding: 0.7rem;
   display: inline-block;
   margin-bottom: 0.5rem;
@@ -12,31 +12,31 @@
           box-shadow: 0px 2px 9px 1px rgba(0, 0, 0, 0.2);
 }
 
-.main .detail-board .classification {
+.container .detail-board .classification {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 0.5rem;
 }
 
-.main .detail-board .classification .name {
+.container .detail-board .classification .name {
   width: 5rem;
   white-space: nowrap;
 }
 
-.main .detail-board .classification .description {
+.container .detail-board .classification .description {
   min-width: 7rem;
 }
 
-.main .detail-board .classification .unit-price {
+.container .detail-board .classification .unit-price {
   min-width: 5rem;
 }
 
-.main .detail-board .classification .num-people {
+.container .detail-board .classification .num-people {
   min-width: 3rem;
 }
 
-.main .summary {
+.container .summary {
   color: white;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -47,11 +47,11 @@
   border-radius: 5px;
 }
 
-.main .summary.warn {
+.container .summary.warn {
   background: #e43333;
 }
 
-.main .summary .party, .main .summary .total-amount {
+.container .summary .party, .container .summary .total-amount {
   width: 6rem;
 }
 /*# sourceMappingURL=App.css.map */
