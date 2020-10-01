@@ -12,7 +12,7 @@ class FeeCalcurator extends React.Component<{}, FeeCalcuratorState> {
 
   constructor(props: {}) {
     super(props);
-    this.state = { feeClassifications: [...feeClassData] };
+    this.state = { feeClassifications: feeClassData };
   }
 
   /** 明細要素 */
